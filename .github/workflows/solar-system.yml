@@ -93,4 +93,4 @@ jobs:
           with:
              context: .
              push: true
-             tags: ghcr.io/${{ github.actor }}  /solar-system:${{ github.sha }}
+             tags: ghcr.io/${{ github.actor }}/solar-system:${{ github.sha }}
